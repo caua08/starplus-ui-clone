@@ -1,0 +1,95 @@
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #090b13;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.bodyIMG {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-color: #090b13;
+  background-size: cover;
+
+  width: 100%;
+  height: 545px;
+}
+/* Header */
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-btn {
+  font-size: 18px;
+  background-color: #4e4a59;
+  border: 1px solid #4e4a59;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 40px;
+  width: 110px;
+  height: 50px;
+}
+
+.header-btn:hover {
+  background-color: #35313f;
+  border: 1px solid #35313f;
+  color: #fff;
+  transition: 0.5s;
+}
+/* Header */
+
+/* Main One */
+.main-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 300px 0 0 0;
+  padding: 0;
+
+  width: 100%;
+  height: auto;
+}
+
+.main-one h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.main-one button {
+  background-image: linear-gradient(to right, #fb1a5d, #ff6c03);
+  border: 0;
+
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+
+  width: 45%;
+  height: 68px;
+}
+
+.main-one button:hover {
+  background-image: linear-gradient(to left, #fb1a5d, #ff6c03);
+}
+
+.main-one a {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #fff;
+}
+/* Main One */
