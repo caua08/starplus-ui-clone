@@ -3,16 +3,12 @@ body {
   background-color: #090b13;
   color: #fff;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   margin: 0;
   padding: 0;
 }
 
 .bodyIMG {
-  background-image: url("images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-color: #090b13;
   background-size: cover;
@@ -57,13 +53,14 @@ header {
 .main-one {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 
-  margin: 300px 0 0 0;
+  margin: 85px 0 0 0;
   padding: 0;
 
   width: 100%;
-  height: auto;
+  height: 700px;
 }
 
 .main-one h1 {

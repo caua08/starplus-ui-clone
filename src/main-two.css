@@ -1,0 +1,195 @@
+/* Main Two */
+.main-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+}
+
+.prices-container {
+  display: flex;
+}
+
+/* ECONOMY */
+
+.economy {
+  background-image: url("../images/mid1.png");
+  background-repeat: no-repeat;
+  background-color: #090b13;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 380px;
+  height: 330px;
+}
+
+.economy div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 50px 0 0 0;
+  padding: 0;
+
+  width: 95%;
+  height: 100%;
+}
+
+.economy h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #bbbbbb;
+
+  margin: 15px 0 30px 0;
+}
+
+.economy h1 {
+  font-size: 28px;
+
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.economy h4 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+
+  color: #bbbbbb;
+
+  text-align: center;
+  margin: 0 0 35px 0;
+}
+
+.economy-button {
+  background-image: linear-gradient(to right, #fb1a5d, #ff6c03);
+  border: 0;
+  border-radius: 3px;
+
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+
+  width: 80%;
+  height: 60px;
+  margin: 0 0 0 0;
+}
+
+.economy-button:hover {
+  background-image: linear-gradient(to left, #fb1a5d, #ff6c03);
+  border: 0;
+
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+
+  width: 80%;
+  height: 60px;
+}
+/* ECONOMY */
+
+.monthly {
+  background-image: url("../images/mid2.png");
+  background-repeat: no-repeat;
+  background-color: #090b13;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 380px;
+  height: 330px;
+}
+
+.monthly div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 50px 0 0 0;
+  padding: 0;
+
+  width: 95%;
+  height: 100%;
+}
+
+.monthly h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #bbbbbb;
+
+  margin: 15px 0 30px 0;
+}
+
+.monthly h1 {
+  font-size: 28px;
+
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.monthly h4 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+
+  color: #bbbbbb;
+
+  text-align: center;
+  margin: 0 0 35px 0;
+}
+
+.monthly-button {
+  background-color: #4434b8;
+  border: 0;
+  border-radius: 3px;
+
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+
+  width: 80%;
+  height: 60px;
+  margin: 0 0 0 0;
+}
+
+.monthly-button:hover {
+  background-color: #523edd;
+  border: 0;
+
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+
+  width: 80%;
+  height: 60px;
+}
+
+.yearly {
+  background-image: url("../images/mid2.png");
+  background-repeat: no-repeat;
+  background-color: #090b13;
+  background-size: cover;
+
+  width: 380px;
+  height: 330px;
+}
+
+.main-two p {
+  font-size: 12px;
+  color: #bbbbbb;
+  margin-top: 70px;
+}
+/* Main Two */
